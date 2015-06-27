@@ -8,6 +8,10 @@ PONG = re.compile(b'^PONG\r\n')
 INFO = re.compile(b'^INFO\s+([^\r\n]+)\r\n')
 
 commands = {
-    'MSG': MSG, '+OK': OK, '-ERR': ERR,
-    'PING': PING, 'PONG': PONG, 'INFO': INFO
+    'MSG': MSG,
+    '+OK': OK,
+    '-ERR': ERR,
+    'PING': PING,
+    'PONG': PONG,
+    'INFO': INFO
 }
